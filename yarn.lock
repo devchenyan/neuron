@@ -1146,9 +1146,9 @@
     regenerator-runtime "^0.13.11"
 
 "@babel/runtime@^7.20.6":
-  version "7.20.13"
-  resolved "https://registry.yarnpkg.com/@babel/runtime/-/runtime-7.20.13.tgz#7055ab8a7cff2b8f6058bf6ae45ff84ad2aded4b"
-  integrity sha512-gt3PKXs0DBoL9xCvOIIZ2NEqAGZqHjAnmVbfQtB620V0uReIQutpel14KcneZuer7UioY8ALKZ7iocavvzTNFA==
+  version "7.21.0"
+  resolved "https://registry.yarnpkg.com/@babel/runtime/-/runtime-7.21.0.tgz#5b55c9d394e5fcf304909a8b00c07dc217b56673"
+  integrity sha512-xwII0//EObnq89Ji5AKYQaRYiW/nZ3llSv29d49IuxPhKbtJoLP+9QUUZ4nVragQVtaVGeZrpB+ZtG/Pdy/POw==
   dependencies:
     regenerator-runtime "^0.13.11"
 
@@ -19273,9 +19273,9 @@ react-hotkeys@2.0.0:
     prop-types "^15.6.1"
 
 react-i18next@11.18.6, react-i18next@>=11.16.4:
-  version "12.1.5"
-  resolved "https://registry.yarnpkg.com/react-i18next/-/react-i18next-12.1.5.tgz#b65f5733dd2f96188a9359c009b7dbe27443f009"
-  integrity sha512-7PQAv6DA0TcStG96fle+8RfTwxVbHVlZZJPoEszwUNvDuWpGldJmNWa3ZPesEsZQZGF6GkzwvEh6p57qpFD2gQ==
+  version "12.2.0"
+  resolved "https://registry.yarnpkg.com/react-i18next/-/react-i18next-12.2.0.tgz#010e3f6070b8d700442947233352ebe4b252d7a1"
+  integrity sha512-5XeVgSygaGfyFmDd2WcXvINRw2WEC1XviW1LXY/xLOEMzsCFRwKqfnHN+hUjla8ZipbVJR27GCMSuTr0BhBBBQ==
   dependencies:
     "@babel/runtime" "^7.20.6"
     html-parse-stringify "^3.0.1"
@@ -21064,10 +21064,10 @@ sprintf-js@~1.0.2:
   resolved "https://registry.yarnpkg.com/sprintf-js/-/sprintf-js-1.0.3.tgz#04e6926f662895354f3dd015203633b857297e2c"
   integrity sha512-D9cPgkvLlV3t3IzL0D0YLvGA9Ahk4PcvVwUbN0dSGr1aP0Nrt4AEnTUbuGvquEC0mA64Gqt1fzirlRs5ibXx8g==
 
-sqlite3@5.1.2:
-  version "5.1.2"
-  resolved "https://registry.yarnpkg.com/sqlite3/-/sqlite3-5.1.2.tgz#f50d5b1482b6972fb650daf6f718e6507c6cfb0f"
-  integrity sha512-D0Reg6pRWAFXFUnZKsszCI67tthFD8fGPewRddDCX6w4cYwz3MbvuwRICbL+YQjBAh9zbw+lJ/V9oC8nG5j6eg==
+sqlite3@5.1.5:
+  version "5.1.5"
+  resolved "https://registry.yarnpkg.com/sqlite3/-/sqlite3-5.1.5.tgz#cf5a753c98914f3aa44b7bd057702fdca6abceb6"
+  integrity sha512-7sP16i4wI+yKnGOO2q2ijze7EjQ9US+Vw7DYYwxfFtqNZDGgBcEw0oeDaDvUTq66uJOzVd/z6MkIg+c9erSJKg==
   dependencies:
     "@mapbox/node-pre-gyp" "^1.0.0"
     node-addon-api "^4.2.0"
