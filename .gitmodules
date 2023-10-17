@@ -1,0 +1,3 @@
+[submodule "ckb-wallet-connect"]
+	path = ckb-wallet-connect
+	url = git@github.com:Magickbase/ckb-wallet-connect.git
