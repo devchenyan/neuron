@@ -8,6 +8,8 @@ jobs:
   compare:
     name: Compare checksums
     runs-on: macos-latest
+    outputs:
+      body: ${{ steps.comment_body.outputs.body }}
     steps:
       - name: Checkout
         uses: actions/checkout@v3
@@ -31,7 +33,7 @@ jobs:
           body="${body//'%'/'%25'}"
           body="${body//$'\n'/'%0A'}"
           body="${body//$'\r'/'%0D'}"
-          echo "body=$body" >> "$GITHUB_OUTPUT"
+          echo "body=$body" >> $GITHUB_OUTPUT
 
       - uses: peter-evans/commit-comment@v2
         with:
