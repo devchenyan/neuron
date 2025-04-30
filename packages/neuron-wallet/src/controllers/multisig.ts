@@ -24,8 +24,8 @@ interface MultisigConfigItem {
   sighash_addresses: string[]
   require_first_n: number
   threshold: number
-  alias?: string | string[]
-  lockCodeHash: string | string[]
+  alias?: string
+  lockCodeHash: string
 }
 
 interface MultisigConfigOutput {
@@ -33,7 +33,7 @@ interface MultisigConfigOutput {
 }
 
 interface MultisigConfigInput {
-  multisig_configs: Record<string, Omit<MultisigConfigItem, 'lockCodeHash'> & { lockCodeHash?: string | string[] }>
+  multisig_configs: Record<string, Omit<MultisigConfigItem, 'lockCodeHash'> & { lockCodeHash?: string }>
 }
 
 const validateImportConfig = (configOutput: MultisigConfigInput) => {
